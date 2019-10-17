@@ -1,0 +1,47 @@
+body
+{
+	width:900px;
+	background-color:#fcf3b3;
+	font-family:"Century Gothic";
+	font-size:12pt;
+}
+
+h1
+{
+	font-family:"Times New Roman";
+	font-size:24pt;
+	
+}
+h2
+{
+	font-family:"Times New Roman";
+	font-size:20pt;
+	
+}
+
+img
+{
+	border:5px solid Goldenrod;
+	padding:10px;
+	margin:0 10px 10px 10px;
+}
+	
+a:link
+{
+	color:RoyalBlue;
+}
+a:visited
+{
+	color:ForestGreen;
+}
+a:hover
+{
+	color:Lime;
+}
+
+p:first-letter	/*Селектор псевдоэлемента*/
+{
+	font-family: "Georgia";
+	font-size: 200%;
+	color: red;
+}
